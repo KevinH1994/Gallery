@@ -16,6 +16,9 @@
 		3C53FC0528C22E9900E815D6 /* GalleryTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C53FC0428C22E9900E815D6 /* GalleryTests.swift */; };
 		3C53FC0F28C22E9A00E815D6 /* GalleryUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C53FC0E28C22E9A00E815D6 /* GalleryUITests.swift */; };
 		3C53FC1128C22E9A00E815D6 /* GalleryUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C53FC1028C22E9A00E815D6 /* GalleryUITestsLaunchTests.swift */; };
+		3C53FC2028C235C900E815D6 /* CollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C53FC1F28C235C900E815D6 /* CollectionViewCell.swift */; };
+		3C53FC2228C23CC500E815D6 /* Images in Resources */ = {isa = PBXBuildFile; fileRef = 3C53FC2128C23CC500E815D6 /* Images */; };
+		3C53FC2428C23CEE00E815D6 /* Images.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C53FC2328C23CEE00E815D6 /* Images.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +52,9 @@
 		3C53FC0A28C22E9A00E815D6 /* GalleryUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GalleryUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3C53FC0E28C22E9A00E815D6 /* GalleryUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GalleryUITests.swift; sourceTree = "<group>"; };
 		3C53FC1028C22E9A00E815D6 /* GalleryUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GalleryUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		3C53FC1F28C235C900E815D6 /* CollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionViewCell.swift; sourceTree = "<group>"; };
+		3C53FC2128C23CC500E815D6 /* Images */ = {isa = PBXFileReference; lastKnownFileType = folder; name = Images; path = ../../Images; sourceTree = "<group>"; };
+		3C53FC2328C23CEE00E815D6 /* Images.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Images.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,9 +105,12 @@
 		3C53FBEC28C22E9600E815D6 /* Gallery */ = {
 			isa = PBXGroup;
 			children = (
+				3C53FC2128C23CC500E815D6 /* Images */,
 				3C53FBED28C22E9600E815D6 /* AppDelegate.swift */,
 				3C53FBEF28C22E9600E815D6 /* SceneDelegate.swift */,
 				3C53FBF128C22E9600E815D6 /* ViewController.swift */,
+				3C53FC1F28C235C900E815D6 /* CollectionViewCell.swift */,
+				3C53FC2328C23CEE00E815D6 /* Images.swift */,
 				3C53FBF328C22E9600E815D6 /* Main.storyboard */,
 				3C53FBF628C22E9900E815D6 /* Assets.xcassets */,
 				3C53FBF828C22E9900E815D6 /* LaunchScreen.storyboard */,
@@ -231,6 +240,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3C53FC2228C23CC500E815D6 /* Images in Resources */,
 				3C53FBFA28C22E9900E815D6 /* LaunchScreen.storyboard in Resources */,
 				3C53FBF728C22E9900E815D6 /* Assets.xcassets in Resources */,
 				3C53FBF528C22E9600E815D6 /* Main.storyboard in Resources */,
@@ -260,6 +270,8 @@
 			files = (
 				3C53FBF228C22E9600E815D6 /* ViewController.swift in Sources */,
 				3C53FBEE28C22E9600E815D6 /* AppDelegate.swift in Sources */,
+				3C53FC2428C23CEE00E815D6 /* Images.swift in Sources */,
+				3C53FC2028C235C900E815D6 /* CollectionViewCell.swift in Sources */,
 				3C53FBF028C22E9600E815D6 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
