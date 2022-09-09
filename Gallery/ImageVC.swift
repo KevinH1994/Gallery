@@ -135,6 +135,26 @@ class ImageVC: UIViewController, UIScrollViewDelegate {
             return img
         }
         
+        func scrollViewDidZoom(_ scrollView: UIScrollView){
+            if scrollView.zoomScale < 1 {
+                if let image = img.image{
+                    let ratioW = img.frame.width / image.size.width
+                    let rationH = img.frame.height / image.size.height
+                    
+                    let ratio = ratioW < rationH ? ratioW:rationH
+                    let newWidth = image.size.width * ratio
+                    let newHeight = image.size.height * ratio
+                    
+                    let left = 0.5 * (newWidth * scrollView.zoomScale > img.frame.width ? (newWidth - img.frame.width): (scrollView.frame.width - scrollView.contentSize.width))
+                    let top = 0.5 * (newWidth * scrollView.zoomScale > img.frame.height ? (newWidth - img.frame.height): (scrollView.frame.width - scrollView.contentSize.height))
+                    
+                    scrollView.contentInset = UIEdgeInsets(top: top, left: left, bottom: top, right: left)
+                }
+            }else{
+                scrollView.contentInset = UIEdgeInsets.zero
+            }
+        }
+        
         
         
     }
