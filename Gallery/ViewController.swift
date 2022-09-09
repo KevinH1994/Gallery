@@ -13,10 +13,9 @@ struct MyCustomData {
 
 class ViewController: UIViewController {
     
-    fileprivate let data =  [
-    
-        MyCustomData(image: Image.Mona_Lisa),
-        MyCustomData (image: Image.Der_Schrei),
+    fileprivate let data = [
+        MyCustomData(image: Image.MonaLisa),
+        MyCustomData(image: Image.DerSchrei),
         MyCustomData(image: Image.Bild1),
         MyCustomData(image: Image.Bild2),
         MyCustomData(image: Image.Bild3),
@@ -27,7 +26,6 @@ class ViewController: UIViewController {
         MyCustomData(image: Image.Bild8),
         MyCustomData(image: Image.Bild9),
         MyCustomData(image: Image.Bild10)
-
     ]
 
     fileprivate let collectionView: UICollectionView = {
@@ -95,5 +93,12 @@ extension ViewController: UICloudSharingControllerDelegate, UICollectionViewData
         }
         
         return CGSize (width: Width, height: Width)
+    }
+    
+    func collectionView(_ collectionView: UICollectionView, didSelectItemAt indexPath: IndexPath) {
+        let vc = ImageVC()
+        vc.selectedIndex = indexPath.row
+        vc.imageArray = data
+        pushView(viewController: vc)
     }
 }

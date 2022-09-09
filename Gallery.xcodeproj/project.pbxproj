@@ -19,6 +19,7 @@
 		3C53FC2028C235C900E815D6 /* CollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C53FC1F28C235C900E815D6 /* CollectionViewCell.swift */; };
 		3C53FC2228C23CC500E815D6 /* Images in Resources */ = {isa = PBXBuildFile; fileRef = 3C53FC2128C23CC500E815D6 /* Images */; };
 		3C53FC2428C23CEE00E815D6 /* Images.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C53FC2328C23CEE00E815D6 /* Images.swift */; };
+		3CC8A3B728CB724400ECDB22 /* ImageVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CC8A3B628CB724400ECDB22 /* ImageVC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -55,6 +56,7 @@
 		3C53FC1F28C235C900E815D6 /* CollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionViewCell.swift; sourceTree = "<group>"; };
 		3C53FC2128C23CC500E815D6 /* Images */ = {isa = PBXFileReference; lastKnownFileType = folder; name = Images; path = ../../Images; sourceTree = "<group>"; };
 		3C53FC2328C23CEE00E815D6 /* Images.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Images.swift; sourceTree = "<group>"; };
+		3CC8A3B628CB724400ECDB22 /* ImageVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageVC.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -109,6 +111,7 @@
 				3C53FBED28C22E9600E815D6 /* AppDelegate.swift */,
 				3C53FBEF28C22E9600E815D6 /* SceneDelegate.swift */,
 				3C53FBF128C22E9600E815D6 /* ViewController.swift */,
+				3CC8A3B628CB724400ECDB22 /* ImageVC.swift */,
 				3C53FC1F28C235C900E815D6 /* CollectionViewCell.swift */,
 				3C53FC2328C23CEE00E815D6 /* Images.swift */,
 				3C53FBF328C22E9600E815D6 /* Main.storyboard */,
@@ -270,6 +273,7 @@
 			files = (
 				3C53FBF228C22E9600E815D6 /* ViewController.swift in Sources */,
 				3C53FBEE28C22E9600E815D6 /* AppDelegate.swift in Sources */,
+				3CC8A3B728CB724400ECDB22 /* ImageVC.swift in Sources */,
 				3C53FC2428C23CEE00E815D6 /* Images.swift in Sources */,
 				3C53FC2028C235C900E815D6 /* CollectionViewCell.swift in Sources */,
 				3C53FBF028C22E9600E815D6 /* SceneDelegate.swift in Sources */,
